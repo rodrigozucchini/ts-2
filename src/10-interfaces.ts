@@ -27,3 +27,7 @@ products.push({
   createdAt: new Date(),
   stock: 90
 })
+
+const addProduct = (data: Product) => {
+  products.push(data);
+}
